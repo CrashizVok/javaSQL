@@ -30,7 +30,7 @@
             -->
     <Label text="Database:" />
     <TextField id="input_database_name" promptText="test" />
-    <Button id="button_connect"  text="Connect" />
+    <Button id="button_connect" onAction="#handleConnectClick"  text="Connect" />
     <Label text="SQL:" />
     <TextArea id="input_sql" prefHeight="68.0" prefWidth="760.0" promptText="SELECT id FROM table;" />
     <Button id="button_execute" mnemonicParsing="false" text="Execute" />
