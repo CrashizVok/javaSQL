@@ -1,6 +1,7 @@
 module com.example.sql {
     requires javafx.controls;
     requires javafx.fxml;
+    requires io.github.cdimascio.dotenv.java;
 
 
     opens com.example.sql to javafx.fxml;
