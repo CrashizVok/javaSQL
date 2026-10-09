@@ -3,7 +3,7 @@ package com.example.sql;
 import io.github.cdimascio.dotenv.Dotenv;
 
 public class EnvLoader {
-    public static final String dirPath = "C:/Users/User/IdeaProjects/sql";
+    public static final String dirPath = "C:/Users/User/Documents/asd/sql";
 
     public static Dotenv dotenv = Dotenv.configure()
             .directory(dirPath)

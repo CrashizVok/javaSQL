@@ -17,23 +17,23 @@
     </padding>
 
     <Label fx:id="welcomeText" text="Host:" />
-    <TextField id="input_host" promptText="127.0.0.1" />
+    <TextField fx:id="input_host" promptText="127.0.0.1" />
     <Label text="Port:" />
-    <Spinner id="number_port" editable="true" initialValue="3306" max="9999" min="1000" prefHeight="26.0" prefWidth="759.0" />
+    <Spinner fx:id="number_port" editable="true" initialValue="3306" max="9999" min="1000" prefHeight="26.0" prefWidth="759.0" />
     <Label text="Username:" />
-    <TextField id="input_username" promptText="root" />
+    <TextField fx:id="input_username" promptText="root" />
     <Label text="Password:" />
-    <PasswordField id="input_password" promptText="&lt;enter password&gt;" />
+    <PasswordField fx:id="input_password" promptText="&lt;enter password&gt;" />
             <!--
             <Label text="CA certificate:" />
             <TextArea id="input_ca_cert" prefHeight="75.0" prefWidth="760.0" promptText="pem file content ... " />
             -->
     <Label text="Database:" />
-    <TextField id="input_database_name" promptText="test" />
-    <Button id="button_connect" onAction="#handleConnectClick"  text="Connect" />
+    <TextField fx:id="input_database_name" promptText="test" />
+    <Button fx:id="button_connect" onAction="#handleConnectClick"  text="Connect" />
     <Label text="SQL:" />
-    <TextArea id="input_sql" prefHeight="68.0" prefWidth="760.0" promptText="SELECT id FROM table;" />
-    <Button id="button_execute" mnemonicParsing="false" text="Execute" />
+    <TextArea fx:id="input_sql" prefHeight="68.0" prefWidth="760.0" promptText="SELECT id FROM table;" />
+    <Button fx:id="button_execute" mnemonicParsing="false" text="Execute" />
     <Label text="Result:" />
-    <TextArea id="output_result" editable="false" prefHeight="157.0" prefWidth="760.0" promptText="&lt;result&gt;" />
+    <TextArea fx:id="output_result" editable="false" prefHeight="157.0" prefWidth="760.0" promptText="&lt;result&gt;" />
 </VBox>
